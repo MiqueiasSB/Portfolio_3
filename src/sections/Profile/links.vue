@@ -21,7 +21,7 @@ function copiarTexto() {
             toast.innerText = 'Copiado!';
             toast.className = 'toast toast-top toast-center';
             toast.innerHTML = `
-        <div class="py-1 alert alert-accent">
+        <div class="z-10 py-1 alert alert-accent">
           <small>Copiado!</small>
         </div>
         `;
