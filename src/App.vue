@@ -1,12 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Profile from './sections/Profile/profile.vue';
+import Projects from './sections/Projects/projects.vue';
+
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline text-sky-600">
-    Hello world!
-  </h1>
-  <button class="btn">Button</button>
-
+  <Profile />
+  <Projects />
 </template>
 
