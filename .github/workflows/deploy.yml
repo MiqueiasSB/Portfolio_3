@@ -1,4 +1,4 @@
-name: Deploy Vue App to HostGator
+name: Deploy Vue.js to HostGator via SSH
 
 on:
   push:
@@ -10,20 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout código
+      - name: Checkout do código
         uses: actions/checkout@v3
 
       - name: Instalar dependências
         run: npm install
 
-      - name: Build da aplicação
+      - name: Build do projeto
         run: npm run build
 
       - name: Deploy via SSH
-        uses: appleboy/scp-action@v0.1.4
+        uses: easingthemes/ssh-deploy@v4
         with:
-          host: ${{ secrets.HOSTGATOR_HOST }}
-          username: ${{ secrets.HOSTGATOR_USER }}
-          key: ${{ secrets.DEPLOY_KEY }}
-          source: "dist/*"
-          target: ${{ secrets.HOSTGATOR_PATH }}
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          REMOTE_HOST: ${{ secrets.HOSTGATOR_HOST }}
+          REMOTE_USER: ${{ secrets.HOSTGATOR_USER }}
+          TARGET: ${{ secrets.HOSTGATOR_PATH }}
+          SOURCE: "dist/"
