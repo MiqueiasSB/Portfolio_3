@@ -9,7 +9,7 @@ import Covers from './covers.vue';
             <div class="relative w-full max-w-4xl mx-auto">
                 <h2 class="flex items-center gap-2 pb-10 text-4xl font-extrabold">
                     <Rocket class="w-10 h-10" />
-                    Meus Projetos
+                    Projetos e Experiências!
                 </h2>
                 <Covers />
             </div>

@@ -18,13 +18,13 @@ defineProps({
         <h2 class="card-title">{{ cover.title }}</h2>
         <p class="m-0 font-light text-start">{{ cover.description }}</p>
         <div class="flex flex-wrap gap-1">
-          <span
-            v-for="(tag, i) in cover.tools"
+          <small
+            v-for="(tag, i) in cover.tools.slice(0, 12)"
             :key="i"
             class="badge badge-xs"
           >
             {{ tag }}
-          </span>
+          </small>
         </div>
       </div>
     </div>

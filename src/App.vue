@@ -5,6 +5,7 @@ import Projects from './sections/Projects/projects.vue';
 </script>
 
 <template>
+ 
   <Profile />
   <Projects />
 </template>

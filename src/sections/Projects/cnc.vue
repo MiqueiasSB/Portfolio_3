@@ -4,7 +4,7 @@ import { getProjects } from '../../data/projects.js'
 
 // Usa a função para obter os projetos
 const projects = getProjects()
-const project = projects.find(p => p.title === 'MNotas')
+const project = projects.find(p => p.title === 'CNC Laser')
 </script>
 <template>
   <BodyProject

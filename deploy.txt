@@ -1,0 +1,5 @@
+Compactar e enviar os arquivos
+
+
+Rodar esse comando no ssh rostgator
+scp -r dist/* revizz28@162.241.2.254:/home4/revizz28/miqueiasbraga.com
