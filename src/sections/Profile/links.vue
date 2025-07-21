@@ -40,7 +40,7 @@ function copiarTexto() {
         </a>
     </div>
 
-    <div class="mt-10 text-center">
+    <div class="hidden sm:block mt-10 text-center">
         <p class="text-sm text-gray-400 transition-colors cursor-pointer hover:text-accent" @click="copiarTexto">
             {{ description }}
         </p>

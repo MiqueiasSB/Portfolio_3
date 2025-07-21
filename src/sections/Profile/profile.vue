@@ -43,7 +43,7 @@ onBeforeUnmount(() => {
           <h1 class="text-2xl font-bold text-white">
             Miquéias de Sousa Braga
           </h1>
-          <h6 class="px-40 mt-2 text-sm font-light text-gray-400">
+          <h6 class="md:px-40 mt-2 text-sm font-light text-gray-400">
             Experiente e Versátil em Engenharia e Tecnologia, com Amplas Habilidades em Desenvolvimento de
             Sistemas.
           </h6>
