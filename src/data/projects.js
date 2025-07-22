@@ -23,16 +23,19 @@ export function getProjects() {
     {
       title: 'MNotas',
       description: 'Um sistema de gerênciamento de finanças, para pequenos negócios',
-      tools: ['Laravel', 'Livewire', 'Alpine.js','Bootstrap 5', 'Stripe', 'GoogleChats'],
+      tools: ['Laravel', 'Livewire', 'Alpine.js','Bootstrap 5', 'Stripe','Charts.js', 'GoogleChats'],
       image: images['../assets/img/projects/MNotas.png'],
-      contentComponent: markRaw(components['../sections/Projects/mnotas.vue'])
+      contentComponent: markRaw(components['../sections/Projects/mnotas.vue']),
+      demo: 'https://mnotas.miqueiasbraga.com',
+      github:'https://github.com/MiqueiasSB/mnotas-finan'
     },
     {
       title: 'CNC Laser',
       description: 'Maquina de corte e gravação laser feita com fundamentos da Economia Circular',
       tools: ['Mecânica', 'Eletrônica', 'ESP32', 'Arduino','Modelagem 2D','Modelagem 3d' ],
       image: images['../assets/img/projects/cnc.png'],
-      contentComponent: markRaw(components['../sections/Projects/cnc.vue'])
+      contentComponent: markRaw(components['../sections/Projects/cnc.vue']),
+      demo: 'https://www.figma.com/proto/MSnfIJnzgIDRd3HmwEvXT7/TCC?node-id=200-16&p=f&t=KfRXJ6CduwNlde0L-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=162%3A210'
     }
   ]
 }

@@ -32,7 +32,7 @@ defineProps({
         🌐 GitHub
       </a>
       <a v-if="project.demo" :href="project.demo" target="_blank" class="btn btn-sm btn-primary">
-        🔗 Ver Demo
+        🔗 Acesso
       </a>
     </div>
 
