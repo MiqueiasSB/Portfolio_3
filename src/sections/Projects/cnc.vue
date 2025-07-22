@@ -33,7 +33,7 @@ const project = projects.find(p => p.title === 'CNC Laser')
             <div id="slide1" class="carousel-item relative w-full">
               <img :src=Post1 class="w-full" />
               <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle opacity-0">❮</a>
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div>
@@ -41,7 +41,7 @@ const project = projects.find(p => p.title === 'CNC Laser')
               <img :src=Post2 class="w-full" />
               <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                 <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
+                <a href="#slide3" class="btn btn-circle opacity-0">❯</a>
               </div>
             </div>
           </div>

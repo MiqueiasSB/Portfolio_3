@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="max-w-4xl p-6 mx-auto border shadow-xl bg-base-100 rounded-2xl border-base-200">
+  <section class="max-w-4xl p-2 md:p-6 mx-auto border shadow-xl bg-base-100 rounded-2xl border-base-200">
     <img
       v-if="project.image"
       :src="project.image"
