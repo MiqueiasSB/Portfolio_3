@@ -10,15 +10,19 @@ import { Cpu } from 'lucide-vue-next';
 // Usa a função para obter os projetos
 const projects = getProjects()
 const project = projects.find(p => p.title === 'Teep Tecnologia')
+const selectedTab = true;
 
+const classBtn = [
+  
+]
 </script>
 <template>
   <BodyProject :project="project">
     <template #extra>
       <!-- name of each tab group should be unique -->
-      <div class="tabs tabs-lift">
+      <div class="tabs tabs-sm md:tabs-lg tabs-lift">
         <label class="tab">
-          <input type="radio" name="my_tabs_4" checked="checked" />
+          <input type="radio" :value="selectedTab" name="my_tabs_4" checked="checked" />
           <Cpu class="mr-2" />
           Auxiliar Técnico
         </label>
