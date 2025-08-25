@@ -18,7 +18,8 @@ export function getProjects() {
       description: 'Trabalho de Auxiliar técnico em manutenções e promovido a desenvolvedor Junior',
       tools: ['Eletrônica','Soldagem e Montagem','ESP32','C++','Arduino','Python','Django','Flutter','Firebase' , 'Docker', 'Manutenção','Angular','TypeScript','PostgreSQL','Organização de Estoque'],
       image: images['../assets/img/projects/teep.png'],
-      contentComponent: markRaw(components['../sections/Projects/teep.vue'])
+      contentComponent: markRaw(components['../sections/Projects/teep.vue']),
+      recommendation: '../pdfs/cartaTeep.pdf',
     },
     {
       title: 'MNotas',

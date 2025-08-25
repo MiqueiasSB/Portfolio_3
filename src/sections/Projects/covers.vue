@@ -42,17 +42,6 @@ function backToList() {
       <component :is="selectedProject.contentComponent" />
     </div>
 
-    <!-- Mensagem de aviso -->
-    <div v-if="!selectedProject" class="max-w-md mx-auto my-8">
-      <div class="card bg-base-200 shadow rounded-lg border border-base-300 px-4 py-3">
-        <div class="flex items-center justify-center gap-2">
-          <span class="loading loading-dots loading-sm text-primary"></span>
-          <p class="text-sm text-base-content text-center">
-            Estou trabalhando na descrição dos outros projetos
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 

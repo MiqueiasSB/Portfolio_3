@@ -80,8 +80,8 @@ const project = projects.find(p => p.title === 'MNotas')
         <div class="w-full shadow rounded-lg border border-base-300 overflow-hidden">
             <img :src=Post1 class="w-full" />
         </div>
-
-        <!-- Refatoração e Evolução -->
+        <!--
+         
         <div>
           <h3 class="text-lg font-bold text-primary flex items-center gap-2">
             <Wrench class="w-5 h-5" /> Refatoração e Evolução
@@ -93,7 +93,7 @@ const project = projects.find(p => p.title === 'MNotas')
             organização e escalabilidade.
           </p>
         </div>
-
+ -->
         <!-- Acesso e Experimente -->
         <div>
           <h3 class="text-lg font-bold text-primary flex items-center gap-2">
